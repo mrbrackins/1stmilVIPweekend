@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    text-transform: capitalize;
+    
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
@@ -404,3 +404,4 @@ line-height: 55px;
 .bonus .row h4{
     margin-top: 90px;
 }
+
