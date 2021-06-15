@@ -1,0 +1,406 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    text-transform: capitalize;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+a{
+    text-decoration: none;
+}
+.header{
+    background-image: url(img/beach-vacation-e1470663653924.jpeg);
+    background-position: center center;
+    background-size: cover;
+    padding: 12rem;
+}
+.header .text{
+    background-color: white ;
+    padding: 2rem 0rem;
+    position: relative;
+    top: 18rem;
+    -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
+.main-body{
+    margin-top: 10rem;
+}
+.result{
+    background-image: url(img/teaching.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+}
+.result-inner{
+    background-color: rgba(0, 0,0, 0.5);
+           height: 100%;
+            padding: 15vmin;
+            overflow: hidden;
+
+}
+
+/* funnnel */
+
+.wtf{
+    
+    padding: 2rem;
+    text-align: center;
+    margin-top: 40px;
+     width: 50%;
+     position: relative;
+     left: 25%;
+     -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+     box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+.reasons .col-12{
+background-color: #FFF3E2;
+padding: 20px;
+}
+.reasons .col-12 h2{
+    color: #F9966C;
+}
+.visit{
+    background-image: url(img/african-american-woman-with-laptop-coffee_1303-7295.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    background-attachment: fixed;
+}
+.visit-content{
+    background-color: rgba(0, 0,0, 0.5);
+    height: 100%;
+     padding: 10rem;
+     overflow: hidden;
+     z-index: 2;
+}
+.visit-content p{
+    font-weight: bold;
+    font-size: larger;
+}
+
+/* funnel trap*/
+.funnel-traps{
+    margin-top: 90px;
+}
+.funnel-traps .row img{
+    width: 100%;
+}
+.funnel-traps .row h1{
+  margin-top: 30px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 400px;
+  font-style: 36px;
+  line-height: 36px;
+  color:  #3a3a3a;
+}
+.funnel-traps .first{
+    font-family: 'Playfair Display', serif;
+   text-align: center;
+   font-size: 61px;
+   color: #74ebd2;
+}
+
+/* freedom */
+.funnel-freedom {
+    background-image: url(img/rainbow.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+.funnel-freedom .text-inner{
+    background-color: rgba(0, 0,0, 0.5);
+           height: 100%;
+            padding: 10vmin;
+            overflow: hidden;
+
+}
+.freedom .text{
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+width: 70%;
+position: relative;
+left: 15%;
+background-color: white;
+padding: 30px;
+}
+.freedom .text p{
+   font-weight: bold;font-family: sans-serif;
+}
+.freedom .funnel-freedom h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 58px;
+    color: #74ebd2;
+}
+.freedom .funnel-freedom h2{
+    font-family: 'Playfair Display', serif;
+}
+.freedom .row h2{
+    color: #F9966C;
+}
+
+/* rate */
+.rate p{
+    line-height: 70px;
+}
+.rate{
+    background-color: #FFF7F1;
+    padding: 40px;
+    margin-top: 70px;
+}
+
+/* other funnel*/
+
+.other-funnel{
+    background-color:  #FFF7F1 ;
+    padding: 90px;
+}
+.other-funnel .row ul{
+    line-height: 30px;
+    list-style-type: none;
+}
+.other-funnel .row i{
+    color: #F9966C;
+    margin-right: 10px;
+}
+.other-funnel h1{
+    color: #f9966c;
+font-family: 'Playfair Display', serif; 
+font-weight: 400;
+font-size: 48px;
+line-height: 55px;
+
+}
+
+/* imagine section*/
+.imagine-if .first-text{
+   background-color: #FFF2E2;
+    padding: 40px;
+    position: relative;
+    right: 120px;
+    top: 60px; 
+   
+}
+
+.imagine-if .imagine-head{
+    width: 50%;
+    margin-left: 90px;
+}
+.imagine-if .imagine-head h1{
+    font-weight: 800;
+    font-family: 'Playfair Display', serif;  
+    font-size: 73px;
+    line-height: 73px;
+    margin-top: 70px;
+    color: #ffb8a8;
+    font-style: italic;
+    
+}
+.imagine-if .imagine-head p{
+    font-family: 'Playfair Display', serif;  
+    font-weight: 400;
+    font-size: 25px;
+    color: #3a3a3a;
+}
+.imagine-if .second-div{
+    margin-top: 10rem;
+}
+.imagine-if .second-head{
+    margin-top: 20rem;
+    text-align: center;
+}
+ .imagine-if .second-div .text{
+    background-color: #FFF2E2;
+    padding: 30px 120px;
+    position: relative;
+    left: 120px;
+    top: 40px; 
+ }
+ .imagine-if .second-div  .second-head h1{
+    font-family: 'Playfair Display', serif;  
+    font-weight: 900;
+    font-size: 65px;
+    line-height: 62px;
+    color: #ffa8a8;
+ }
+ .imagine-if .second-div  .second-head h2{
+     font-size: 30px;
+     line-height: 30px;
+ }
+ .imagine-if .second-div  .second-head h5{
+     font-weight: 400;
+ }
+ .imagine-if .second-div  .second-head p{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/* third div inside imagine if section */
+.third-div{
+    margin-top: 10rem;
+}
+.third-div p{
+    line-height: 30px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.subscribers {
+    background-color: #FFECEC;
+    padding: 40px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+/*optin section*/
+.opt-in{
+    margin-top: 7rem;
+}
+.opt-in .btn1{
+    background-color: #FFBE0C;
+    padding: 25px 90px;
+    color: white;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 800;
+}
+ .opt-in .lead-geneating{
+     background-color: #FFECEC;
+     padding: 40px;
+     margin-top: 70px;
+     text-align: center;
+     line-height: 30px;
+     font-weight: 500;
+     font-size: 20px;
+ }
+
+ .opt-in .imagine-this{
+     margin-top: 7rem;
+ }
+ .imagine-this .plus{
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 5px;
+ }
+ .opt-in h4{
+     font-weight: 700;
+     font-size: 22px;
+     width: 80%;
+    margin-left: 100px;
+    line-height: 39px;
+    color: #f95b9f;
+ }
+
+ /* whats the gaol */
+.goal-img{
+    background-color: #29424F;
+    padding: 9rem;
+    text-align: center;
+}
+.gaol-text{
+    text-align: center;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    width: 60%;
+    padding: 4rem 2rem;
+    left: 200px;
+    line-height: 35px;
+    position: relative;
+   top: -10rem;
+    background-color: white;
+   height: 500%;
+}
+.gaol-text p{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+/* whats included */
+.included{
+    text-align: center;
+}
+.included h3{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;  
+}
+.included .row .plus{
+    line-height: 30px;
+}
+.included .row i{
+    margin-top: 12px;
+    margin-right: 10px;
+}
+.included .row p{
+    font-weight: 500;
+    font-size: 20px;
+}
+.included .total{
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.included .total h2{
+    margin-top: 10px;
+}
+.included .btn1{
+    background-color: #FFBE0C;
+    padding: 25px 90px;
+    color: white;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 800;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+   
+}
+
+/* funel fundation */
+
+.funnel-fundation{
+    padding: 40px;
+}
+.funnel-fundation .fundation{
+    padding: 30px;
+}
+.funnel-fundation .fundation .text{
+    margin-left: 30px;
+}
+.funnel-fundation .fundation h4{
+    font-weight: 700;
+}
+
+/* bonus*/
+
+.bonus h1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+    margin-bottom: -35px;
+}
+.bonus{
+    margin-top: 60px;
+    text-align: center;
+}
+.bonus p{
+    font-weight: 500;
+    font-size: 20px;
+}
+.bonus .row img{
+    width: 15%;
+}
+.bonus .row p{
+    font-weight: 400;
+    margin-top: 20px;
+}
+.bonus .row h4{
+    margin-top: 90px;
+}
