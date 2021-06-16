@@ -16,7 +16,7 @@ a{
     background-image: url(img/9940a048.jpg);
     background-position: center center;
     background-size: cover;
-    padding: 12rem;
+    
 }
 .header .text{
     background-color: white ;
@@ -472,15 +472,19 @@ line-height: 55px;
     margin-bottom: 90px;
 }
 
+.halfSizeImage {
+    width: 50% !important;
+}
+
 
 @media only screen and (max-width:600px){
     
     .header .text{
         width: 100%;
-        padding:2rem;
+        /* padding: 2rem; */
         top: 15rem;
-        left: -20px;
-      margin-bottom: 90px;
+        /* left: -20px; */
+        margin-bottom: 90px;
     }
     .header{
         padding: 2rem;
