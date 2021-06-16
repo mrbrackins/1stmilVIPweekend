@@ -59,11 +59,11 @@ a{
      box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 .reasons .col-12{
-background-color: #FFF3E2;
+background-color: #c4e3f8d9;
 padding: 20px;
 }
 .reasons .col-12 h2{
-    color: #F9966C;
+    color: #ff66c4;
 }
 .visit{
     background-image: url(img/african-american-woman-with-laptop-coffee_1303-7295.jpg);
@@ -145,7 +145,7 @@ padding: 30px;
     font-family: 'Playfair Display', serif;
 }
 .freedom .row h2{
-    color: #F9966C;
+    color: #ff66c4;
 }
 
 /* rate */
@@ -153,7 +153,7 @@ padding: 30px;
     line-height: 70px;
 }
 .rate{
-    background-color: #FFF7F1;
+    background-color: #c4e3f8d9;
     padding: 40px;
     margin-top: 70px;
 }
@@ -161,7 +161,7 @@ padding: 30px;
 /* other funnel*/
 
 .other-funnel{
-    background-color:  #FFF7F1 ;
+    background-color:  #c4e3f8d9 ;
     padding: 90px;
 }
 .other-funnel .row ul{
@@ -169,11 +169,11 @@ padding: 30px;
     list-style-type: none;
 }
 .other-funnel .row i{
-    color: #F9966C;
+    color: #ff66c4;
     margin-right: 10px;
 }
 .other-funnel h1{
-    color: #f9966c;
+    color: black;
 font-family: 'Playfair Display', serif; 
 font-weight: 400;
 font-size: 48px;
@@ -183,7 +183,7 @@ line-height: 55px;
 
 /* imagine section*/
 .imagine-if .first-text{
-   background-color: #FFF2E2;
+   background-color: #c4e3f8d9;
     padding: 40px;
     position: relative;
     right: 120px;
@@ -219,7 +219,7 @@ line-height: 55px;
     text-align: center;
 }
  .imagine-if .second-div .text{
-    background-color: #FFF2E2;
+    background-color: #c4e3f8d9;
     padding: 30px 120px;
     position: relative;
     left: 120px;
@@ -254,7 +254,7 @@ line-height: 55px;
     margin-top: 20px;
 }
 .subscribers {
-    background-color: #FFECEC;
+    background-color: #c4e3f8d9;
     padding: 40px;
     margin-top: 70px;
     text-align: center;
@@ -265,7 +265,7 @@ line-height: 55px;
     margin-top: 7rem;
 }
 .opt-in .btn1{
-    background-color: #FFBE0C;
+    background-color: #ff66c4;
     padding: 25px 90px;
     color: white;
     font-size: 30px;
@@ -273,7 +273,7 @@ line-height: 55px;
     font-weight: 800;
 }
  .opt-in .lead-geneating{
-     background-color: #FFECEC;
+     background-color: #c4e3f8d9;
      padding: 40px;
      margin-top: 70px;
      text-align: center;
@@ -353,7 +353,7 @@ line-height: 55px;
     margin-top: 10px;
 }
 .included .btn1{
-    background-color: #FFBE0C;
+    background-color: #ff66c4;
     padding: 25px 90px;
     color: white;
     font-size: 30px;
