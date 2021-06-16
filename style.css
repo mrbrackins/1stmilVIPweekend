@@ -30,6 +30,15 @@ a{
 .main-body{
     margin-top: 10rem;
 }
+.main-body .container{
+    width: 50%;
+}
+.main-body h1{
+    font-size: 3rem;
+}
+.main-body .second-h1{
+    color: #74E9D4 ;
+}
 .result{
     background-image: url(img/balloons.jpg);
     background-size: cover;
@@ -58,9 +67,13 @@ a{
      -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
      box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
+
 .reasons .col-12{
 background-color: #c4e3f8d9;
+
+
 padding: 20px;
+margin-right: 50px;
 }
 .reasons .col-12 h2{
     color: #ff66c4;
@@ -72,6 +85,9 @@ padding: 20px;
     color: white;
     background-attachment: fixed;
 }
+.visit h1{
+    font-size: 6rem;
+}
 .visit-content{
     background-color: rgba(0, 0,0, 0.5);
     height: 100%;
@@ -80,7 +96,7 @@ padding: 20px;
      z-index: 2;
 }
 .visit-content p{
-    font-weight: bold;
+    font-weight: 500;
     font-size: larger;
 }
 
@@ -204,12 +220,14 @@ line-height: 55px;
     color: #ffb8a8;
     font-style: italic;
     
+    
 }
 .imagine-if .imagine-head p{
     font-family: 'Playfair Display', serif;  
     font-weight: 400;
     font-size: 25px;
     color: #3a3a3a;
+    font-style: italic;
 }
 .imagine-if .second-div{
     margin-top: 10rem;
@@ -217,6 +235,9 @@ line-height: 55px;
 .imagine-if .second-head{
     margin-top: 20rem;
     text-align: center;
+}
+.imagine-if .first-div{
+    margin-top: 80px;
 }
  .imagine-if .second-div .text{
     background-color: #c4e3f8d9;
@@ -254,15 +275,24 @@ line-height: 55px;
     margin-top: 20px;
 }
 .subscribers {
+
     background-color: #c4e3f8d9;
-    padding: 40px;
+    padding: 80px;
+
     margin-top: 70px;
     text-align: center;
+    font-style: italic;
 }
 
 /*optin section*/
 .opt-in{
     margin-top: 7rem;
+}
+.opt-in h2{
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #ff3174;
+    padding: 30px;
 }
 .opt-in .btn1{
     background-color: #ff66c4;
@@ -273,13 +303,15 @@ line-height: 55px;
     font-weight: 800;
 }
  .opt-in .lead-geneating{
+
      background-color: #c4e3f8d9;
-     padding: 40px;
+     padding: 50px;
+
      margin-top: 70px;
      text-align: center;
-     line-height: 30px;
+     line-height: 40px;
      font-weight: 500;
-     font-size: 20px;
+     font-size: 23px;
  }
 
  .opt-in .imagine-this{
@@ -291,13 +323,23 @@ line-height: 55px;
     font-size: 20px;
     padding: 5px;
  }
- .opt-in h4{
+ .opt-in h3{
      font-weight: 700;
-     font-size: 22px;
+     font-size: 30px;
      width: 80%;
     margin-left: 100px;
     line-height: 39px;
-    color: #f95b9f;
+    color: #ff3174;
+    padding: 20px;
+ }
+ .opt-in .unlock{
+     font-size: 26px;
+     font-weight: 500;
+     text-transform: uppercase;
+     line-height: 39px;
+ }
+ .opt-in h4{
+     color: #ff3174;
  }
 
  /* whats the gaol */
@@ -341,6 +383,7 @@ line-height: 55px;
     margin-top: 12px;
     margin-right: 10px;
 }
+
 .included .row p{
     font-weight: 500;
     font-size: 20px;
@@ -358,6 +401,7 @@ line-height: 55px;
     color: white;
     font-size: 30px;
     line-height: 30px;
+    text-transform: capitalize;
     font-weight: 800;
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
    
@@ -399,9 +443,201 @@ line-height: 55px;
 }
 .bonus .row p{
     font-weight: 400;
-    margin-top: 20px;
+    margin-top: 5px;
 }
-.bonus .row h4{
+.bonus .row i{
+    color: gold;
+    margin-right: 10px;
+}
+.bonus .row{
     margin-top: 90px;
 }
+.bonus .col-12{
+    margin-top: 40px;
+}
 
+.want-in img{
+    width: 100%;
+    margin-top: 50px;
+}
+.want-in .btn1{
+    background-color: #FFBE0C;
+    padding: 25px 100px;
+    color: white;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 900;
+    margin-top: 30px;
+    text-transform: capitalize;
+    margin-bottom: 90px;
+}
+
+
+@media only screen and (max-width:600px){
+    
+    .header .text{
+        width: 100%;
+        padding:2rem;
+        top: 15rem;
+        left: -20px;
+      margin-bottom: 90px;
+    }
+    .header{
+        padding: 2rem;
+        width: 100%;
+    }
+    .main-body h1{
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+       
+    }
+   .main-body{
+       width: 100%;
+       margin-top: 10rem;
+   }
+   .main-body .second-h1{
+       width: 90%;
+   }
+   .main-body .last-p{
+       width: 70%;
+   }
+   .result{
+       width: 100%;
+       height: 50%;
+   }
+   .result-inner{
+       width: 100%;
+       padding: 2vmin;
+   }
+   .wtf{
+       left: 30px;
+       width: 80%;
+   }
+   .reasons h1{
+       width: 80%;
+   }
+   .reasons .ml-5{
+       margin-left: 0px;
+   }
+   .reasons .row .col-12 {
+       width: 50%;
+       margin-right: 0px;
+   }
+   .visit .visit-content {
+       width: 100%;
+       padding: 5rem;
+   }
+   .freedom .text{
+       width: 100%;
+       left: 0px;
+       padding: 50px;
+   }
+   .freedom .funnel-freedom h1{
+       font-size: 40px;
+   }
+    .other-funnel{
+        padding: 30px;
+    }
+    .imagine-if .first-div{
+        flex-direction: column;
+    }
+    .imagine-if img{
+        width: 100%;
+    }
+    .imagine-if .first-text{
+        right: 0px;
+        top: -10px;
+    }
+    .imagine-if .second-div{
+        flex-direction: column-reverse;
+        margin-top: 4rem;
+        
+    }
+    .imagine-if .second-div .text{
+        left: 0px;
+        top:-10px;
+        padding: 50px;
+    }
+    .imagine-if .second-head{
+        margin-top: 3rem;
+    }
+    .imagine-if .second-div img{
+        width: 100%;
+    }
+    .subscribers{
+        width: 100%;
+        padding: 40px;
+    }
+
+    .opt-in{
+        margin-top: 5rem;
+    }
+    .opt-in img{
+        width: 100%;
+    }
+    .opt-in h3{
+        width: 100%;
+        margin-left: 10px;
+    }
+    .opt-in .btn1{
+        padding: 20px;
+    }
+    .opt-in .lead-geneating{
+        padding: 20px;
+        line-height: 37px;
+    }
+
+    .goal-img{
+        width: 100%;
+        padding: 3rem;
+    }
+  .goal-img img{
+      width: 100%;
+  }
+  .gaol-text{
+      top: -3rem;
+      left: 0px;
+      width: 100%;
+  }
+  .included .total h2{
+      width: 100%;
+      margin-top: 0px;
+  }
+  .included .total img{
+      width: 100%;
+  }
+  .included img{
+      width: 100%;
+  }
+  .included .total .neo{
+      width: 100px;
+      text-align: center;
+     
+  }
+  .total{
+      align-content: center;
+      justify-content: center;
+  }
+  .included .btn1{
+      padding: 40px;
+      text-transform: capitalize;
+  }
+  .funnel-fundation .fundation{
+      flex-direction: column;
+      padding: 15px;
+  }
+  .fundation img{
+      width: 100%;
+  }
+  .funnel-fundation .fundation .text{
+      margin-top: 20px;
+  }
+  .bonus  img{
+      width: 100%;
+  }
+  .bonus .row{
+      margin-top: 10px;
+  }
+
+}
