@@ -515,9 +515,7 @@ line-height: 55px;
    .main-body .second-h1{
        width: 100%;
    }
-   .main-body .last-p{
-       width: 70%;
-   }
+
    .result{
        width: 100%;
        height: 50%;
@@ -536,6 +534,7 @@ line-height: 55px;
    }
    .reasons h1{
        width: 80%;
+       margin: 0 auto;
    }
    .reasons .ml-5{
        margin-left: 0px;
