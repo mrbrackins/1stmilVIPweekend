@@ -13,7 +13,7 @@ a{
     text-decoration: none;
 }
 .header{
-    background-image: url(img/beach-vacation-e1470663653924.jpeg);
+    background-image: url(img/9940a048.jpg);
     background-position: center center;
     background-size: cover;
     padding: 12rem;
@@ -31,7 +31,7 @@ a{
     margin-top: 10rem;
 }
 .result{
-    background-image: url(img/teaching.jpg);
+    background-image: url(img/balloons.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -66,7 +66,7 @@ padding: 20px;
     color: #ff66c4;
 }
 .visit{
-    background-image: url(img/african-american-woman-with-laptop-coffee_1303-7295.jpg);
+    background-image: url(img/black_woman_working_beach.jpg);
     background-size: cover;
     background-position: center center;
     color: white;
@@ -109,7 +109,7 @@ padding: 20px;
 
 /* freedom */
 .funnel-freedom {
-    background-image: url(img/rainbow.jpg);
+    background-image: url(img/sacha_hereo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
